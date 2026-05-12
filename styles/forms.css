@@ -1,0 +1,35 @@
+@import url(fields/index.css);
+
+form {
+  margin-top: 3rem;
+}
+
+fieldset {
+  border: none;
+  display: grid;
+  gap: 1.5rem;
+}
+
+legend {
+  font: 600 1rem/1.25 var(--font-family);
+  margin-bottom: 1.5rem;
+}
+
+.input-wrapper,
+.select-wrapper,
+.textarea-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.droparea-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 2px dashed var(--stroke-default);
+  border-radius: .5rem;
+  cursor: pointer;
+  gap: 1rem;
+}
